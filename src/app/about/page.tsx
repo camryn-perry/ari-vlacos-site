@@ -30,21 +30,28 @@ export default function About() {
           </h1>
           <div className='mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400'>
             <p>
-            I am a video producer specializing in crafting unique videos for both tech companies and the general public. My main focus is creating captivating stories through visual storytelling and ensuring a smooth experience for my clients</p>
+              I am a video producer specializing in crafting unique videos for
+              both tech companies and the general public. My main focus is
+              creating captivating stories through visual storytelling and
+              ensuring a smooth experience for my clients
+            </p>
             <br></br>
-            <br></br>
-            I am a Visual Artist based in Oakland, California.
-            <br></br>
-            I produce video interviews, podcasts, live streams, remote recordings, event coverage, testimonials, photography and more!
+            <br></br>I am a Visual Artist based in Oakland, California.
+            <br></br>I produce video interviews, podcasts, live streams, remote
+            recordings, event coverage, testimonials, photography and more!
             <h3>Curriculum Vitae&nbsp;</h3>
-            <p>2009 California Arts Scholar
+            <p>
+              2009 California Arts Scholar
               <br></br>
               2015 UCLA graduate, BA Art
               <br></br>
               2015-2023 Video Production
             </p>
             <h3>Technical Experience</h3>
-            <p>Video Production, Videography and Camera Operation, Lighting and Rigging,  Live Stream Events, Audio Recording </p>
+            <p>
+              Video Production, Videography and Camera Operation, Lighting and
+              Rigging, Live Stream Events, Audio Recording{' '}
+            </p>
             <p>Applications: Adobe Creative Suite, Final Cut Pro</p>
           </div>
         </div>
