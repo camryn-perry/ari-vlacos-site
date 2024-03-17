@@ -4,6 +4,7 @@ import clsx from 'clsx';
 
 import { Button } from '@/components/Button';
 import { Container } from '@/components/Container';
+import VideoContainer from './videos';
 
 export default async function Home() {
   return (
@@ -19,8 +20,12 @@ export default async function Home() {
             </div>
           </div>
         </div>
+              {/* TODO add videos here */}
+      <VideoContainer />
       </Container>
-      {/* TODO add videos here */}
+
     </>
   );
 }
+
+
