@@ -7,8 +7,8 @@ import '@/styles/tailwind.css';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Just Okay Tattoo',
-    default: 'Just Okay Tattoo',
+    template: '%s - Aristotle Vlacos',
+    default: 'Aristotle Vlacos',
   },
   alternates: {
     types: {
