@@ -131,7 +131,6 @@ function MobileNavigation(
                 <MobileNavItem href='/paint'>Paint</MobileNavItem>
                 <MobileNavItem href='/prints'>Prints</MobileNavItem>
                 <MobileNavItem href='/photos'>Photos</MobileNavItem>
-
               </ul>
             </nav>
           </Popover.Panel>

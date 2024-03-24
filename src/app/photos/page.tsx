@@ -10,10 +10,8 @@ export const metadata: Metadata = {
 
 export default function Photos() {
   return (
-    <SimpleLayout
-      title='Photos'
-      intro="">
-          <ImageGallery images={photos}/>
+    <SimpleLayout title='Photos' intro=''>
+      <ImageGallery images={photos} />
     </SimpleLayout>
   );
 }

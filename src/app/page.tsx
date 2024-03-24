@@ -15,12 +15,9 @@ export default async function Home() {
             </div>
           </div>
         </div>
-              {/* TODO add videos here */}
-      <VideoContainer />
+        {/* TODO add videos here */}
+        <VideoContainer />
       </Container>
-
     </>
   );
 }
-
-
