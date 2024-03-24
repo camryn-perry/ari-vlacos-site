@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import { ContainerInner, ContainerOuter } from '@/components/Container';
-import { INSTAGRAM, MAILING_LIST, TIKTOK } from '@/lib/constants';
 
 function NavLink({
   href,
@@ -27,13 +26,7 @@ export function Footer() {
           <ContainerInner>
             <div className='flex flex-col items-center justify-between gap-6 sm:flex-row'>
               <div className='flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200'>
-                <NavLink href='/book'>Book</NavLink>
-                <NavLink href='/about'>About</NavLink>
-                <NavLink href='/flash'>Flash</NavLink>
-                <NavLink href='/faq'>FAQ</NavLink>
-                <NavLink href={INSTAGRAM}>Instagram</NavLink>
-                <NavLink href={TIKTOK}>Tiktok</NavLink>
-                <NavLink href={MAILING_LIST}>Mailing List</NavLink>
+               Ari Vlacos ©
               </div>
             </div>
           </ContainerInner>
