@@ -1,7 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import Image, { StaticImageData } from 'next/image';
-import { photos } from '@/app/imageExports';
 
 let rotations = [
   'rotate-2',
