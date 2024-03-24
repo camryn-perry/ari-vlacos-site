@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import { Container } from '@/components/Container';
 
-import portraitImage from '@/images/ari_about_page.jpg';
+import portraitImage from '@/public/ari_about_page.jpg';
 
 export const metadata: Metadata = {
   title: 'About',

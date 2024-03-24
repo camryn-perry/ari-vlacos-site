@@ -1,8 +1,10 @@
 import { type Metadata } from 'next';
 import Image from 'next/image';
 import clsx from 'clsx';
-
+import React, { useState, useEffect } from "react";
 import { SimpleLayout } from '@/components/SimpleLayout';
+import ImageGallery from '@/components/ImageGallery';
+import { photos } from '../imageExports';
 
 // import baphomet from '@/images/photos/work/baphomet.jpg';
 // import bowieKnife from '@/images/photos/work/bowie-knife.jpg';
@@ -19,47 +21,17 @@ import { SimpleLayout } from '@/components/SimpleLayout';
 // import theLovers from '@/images/photos/work/the-lovers-II.jpg';
 // import wateringHole from '@/images/photos/work/watering-hole.jpg';
 
-const photos = [];
-
 export const metadata: Metadata = {
   title: 'Work',
   description: 'Things I’ve made trying to put my dent in the universe.',
 };
 
 export default function Work() {
-  let rotations = [
-    'rotate-2',
-    '-rotate-2',
-    'rotate-2',
-    'rotate-2',
-    '-rotate-2',
-  ];
-
   return (
     <SimpleLayout
-      title='Fineline contemporary black and grey'
-      intro="Samples of Ari's work.">
-      <ul
-        role='list'
-        className='grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3'>
-        {photos.map((image, imageIndex) => (
-          <li
-            key={image.src}
-            className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
-              rotations[imageIndex % rotations.length],
-            )}>
-            <a href={image.src}>
-              <Image
-                src={image}
-                alt=''
-                sizes='(min-width: 640px) 18rem, 11rem'
-                className='absolute inset-0 h-full w-full object-cover'
-              />
-            </a>
-          </li>
-        ))}
-      </ul>
+      title='Photos'
+      intro="">
+          <ImageGallery images={photos}/>
     </SimpleLayout>
   );
 }
